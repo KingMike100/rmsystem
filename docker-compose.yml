@@ -6,7 +6,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: stats4sd/rmsystem
+    image: stats4sd/rmsystem:1.0.0
     container_name: app
     restart: unless-stopped
     tty: true
