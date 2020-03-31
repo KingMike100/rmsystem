@@ -32,3 +32,6 @@ jobs:
     - name: docker build php
       run: |
         docker build ./ -t stats4sd/rmsystem
+    - name: docker push
+      run: |
+        docker push stats4sd/rmsystem:1.0.0
