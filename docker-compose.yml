@@ -3,7 +3,7 @@ services:
 
   #PHP Service
   app:
-    image: stats4sd/rmsystem:1.0.0
+    image: stats4sd/rmsystem
     container_name: app
     restart: unless-stopped
     tty: true
